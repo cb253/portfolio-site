@@ -8,3 +8,23 @@
 --font-size-s: 2.5rem;
 
 }
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.kode-mono-regular {
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    background-color: var(--main-bg);
+}
+
+#main {
+    
+}
