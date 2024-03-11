@@ -21,10 +21,36 @@
     font-style: normal;
   }
 
+  .white {
+    color: #F6F2F2;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
 * {
     background-color: var(--main-bg);
 }
 
-#main {
-    
+#header {
+  float: left;
+  width: 80%;
+}
+
+#socialButton {
+  float: right;
+  width: 20%;
+  margin-right: -10px;
+}
+
+.socials {
+  width: 2.5rem;
+  padding: 0.2rem;
+}
+
+.clearFloat:after {
+  content: "";
+  display: table;
+  clear: both;
 }

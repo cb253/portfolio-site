@@ -15,7 +15,7 @@ window.onload = function() {
       container.appendChild(element);
     }
   }
-  
+
   // Handling creation and rendering of header lines
   const lineOne = new headerInfo("name: ", "Christian Belarde");
   const lineTwo = new headerInfo("role: ", "Web Developer");
@@ -33,4 +33,22 @@ window.onload = function() {
   const myBio = `My name is Christian. I am 26 yeard old, and a big fan of tech. 
   I specialize in front-end development, IT Help Desk work, and general promgramming.
    My true passion is writing code to solve problems and build cool things.`
+
+
+  class workCard {
+    constructor(name, logo) {
+      this.name = name;
+      this.logo = logo;
+    }
+  }
+
+  class workCardExpanded {
+    constructor(title, languages, image, bio) {
+      this.title = title;
+      this.languages = languages;
+      this.image = image;
+      this.bio = bio;
+    }
+  }
+
 }
