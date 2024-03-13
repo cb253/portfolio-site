@@ -54,3 +54,28 @@
   display: table;
   clear: both;
 }
+
+.workCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: fit-content;
+  margin-inline: auto;
+  height: 5rem;
+  background-color: #D9D9D9;
+  border: 1px black solid;
+  border-radius: 20px;
+
+  font-family: var(--secondary-font);
+}
+.workCard > img {
+  width: 2rem;
+  background-color: #D9D9D9;
+}
+
+.workCard > h3 {
+  background-color: #D9D9D9;
+  max-width: 80%;
+  text-align: center;
+}
